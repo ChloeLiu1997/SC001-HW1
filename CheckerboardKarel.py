@@ -73,9 +73,13 @@ def fill_one_line():
                         turn_left()
                         if front_is_clear():
                             move()
+                            turn_left()
                         else:
                             turn_left()
                             turn_left()
+                else:
+                    turn_left()
+                    turn_left()
             else:
                 turn_left()
                 if front_is_clear():
@@ -87,9 +91,13 @@ def fill_one_line():
                         turn_right()
                         if front_is_clear():
                             move()
+                            turn_right()
                         else:
                             turn_left()
                             turn_left()
+                else:
+                    turn_left()
+                    turn_left()
 
 
 
